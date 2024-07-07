@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advanced Calculator</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjs/9.4.4/math.js"></script>
+</head>
+<body>
+    <div class="calculator-container">
+        <h1 class="calculator-heading">Advanced Calculator</h1>
+        <div class="calculator">
+            <div class="display">
+                <div class="history" id="history"></div>
+                <div class="current-input" id="current-input">0</div>
+            </div>
+            <div class="buttons">
+                <button class="clear" data-action="clear">C</button>
+                <button class="backspace" data-action="backspace">⌫</button>
+                <button class="operator" data-action="(">(</button>
+                <button class="operator" data-action=")">)</button>
+                <button class="function" data-action="sin">sin</button>
+                <button class="function" data-action="cos">cos</button>
+                <button class="function" data-action="tan">tan</button>
+                <button class="operator" data-action="/">÷</button>
+                <button class="number" data-action="7">7</button>
+                <button class="number" data-action="8">8</button>
+                <button class="number" data-action="9">9</button>
+                <button class="operator" data-action="*">×</button>
+                <button class="number" data-action="4">4</button>
+                <button class="number" data-action="5">5</button>
+                <button class="number" data-action="6">6</button>
+                <button class="operator" data-action="-">-</button>
+                <button class="number" data-action="1">1</button>
+                <button class="number" data-action="2">2</button>
+                <button class="number" data-action="3">3</button>
+                <button class="operator" data-action="+">+</button>
+                <button class="function" data-action="sqrt">√</button>
+                <button class="number" data-action="0">0</button>
+                <button class="number" data-action=".">.</button>
+                <button class="equals" data-action="=">=</button>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
